@@ -1,0 +1,8 @@
+
+global proc AEsphinxExampleTemplate( string $object )
+{
+    string $python = "import sphinxexampleae; sphinxexampleae.ae_template( \"" + $object + "\" )";
+
+    python( $python );
+}
+
